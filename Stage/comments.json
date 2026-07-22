@@ -1,6 +1,6 @@
 {
-  "R": {
-    "id": "R",
+  "a;": {
+    "id": "a;",
     "text": "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{\"framerate\":60,\"runtimeOptions\":{\"maxClones\":Infinity,\"miscLimits\":false,\"fencing\":false},\"hq\":true,\"width\":640} // _twconfig_",
     "x": 50,
     "y": 50,
