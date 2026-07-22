@@ -1,0 +1,50 @@
+[
+  {
+    "name": "mockup",
+    "dataFormat": "svg",
+    "rotationCenterX": 92.60026999999997,
+    "rotationCenterY": 133.2378099999999
+  },
+  {
+    "name": "base",
+    "dataFormat": "svg",
+    "rotationCenterX": 92.60026999999997,
+    "rotationCenterY": 133.23780999999997
+  },
+  {
+    "name": "buttons",
+    "dataFormat": "svg",
+    "rotationCenterX": 80.85288499999999,
+    "rotationCenterY": 86.05590551710709
+  },
+  {
+    "name": "kits",
+    "dataFormat": "svg",
+    "rotationCenterX": -3.62199499999997,
+    "rotationCenterY": 86.05590551710709
+  },
+  {
+    "name": "parts",
+    "dataFormat": "svg",
+    "rotationCenterX": 80.85287499999998,
+    "rotationCenterY": 86.05590551710709
+  },
+  {
+    "name": "pages",
+    "dataFormat": "svg",
+    "rotationCenterX": 80.43599873415289,
+    "rotationCenterY": -92.82017363297831
+  },
+  {
+    "name": "pages3",
+    "dataFormat": "svg",
+    "rotationCenterX": -65.62408126584711,
+    "rotationCenterY": -92.82017707703841
+  },
+  {
+    "name": "pages2",
+    "dataFormat": "svg",
+    "rotationCenterX": 80.43599246830578,
+    "rotationCenterY": -92.82018989882539
+  }
+]

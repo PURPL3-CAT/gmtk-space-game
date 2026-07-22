@@ -1,0 +1,14 @@
+[
+  {
+    "name": "reference",
+    "dataFormat": "png",
+    "rotationCenterX": 31,
+    "rotationCenterY": 32
+  },
+  {
+    "name": "reference2",
+    "dataFormat": "png",
+    "rotationCenterX": 25,
+    "rotationCenterY": 29
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "blocks": {
+    "event_whenflagclicked1": {
+      "id": "event_whenflagclicked1",
+      "opcode": "event_whenflagclicked",
+      "inputs": {},
+      "fields": {},
+      "next": "looks_hide1",
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": 173,
+      "y": 38
+    },
+    "looks_hide1": {
+      "id": "looks_hide1",
+      "opcode": "looks_hide",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "event_whenflagclicked1",
+      "shadow": false
+    },
+    "event_whenbroadcastreceived1": {
+      "id": "event_whenbroadcastreceived1",
+      "opcode": "event_whenbroadcastreceived",
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "id": "X$b7KhkWBuw^}6#}%6`n",
+          "value": "GAME begin",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "next": null,
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": 463,
+      "y": 59
+    }
+  },
+  "scripts": [
+    "event_whenflagclicked1",
+    "event_whenbroadcastreceived1"
+  ]
+}
