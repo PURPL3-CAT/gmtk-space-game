@@ -1,9 +1,16 @@
 {
-  "`jEk@4|i[#Fk?(8x)AV.-my variable": {
-    "id": "`jEk@4|i[#Fk?(8x)AV.-my variable",
-    "name": "my variable",
-    "type": "",
+  "X$b7KhkWBuw^}6#}%6`n": {
+    "id": "X$b7KhkWBuw^}6#}%6`n",
+    "name": "GAME begin",
+    "type": "broadcast_msg",
     "isCloud": false,
-    "value": 0
+    "value": "GAME begin"
+  },
+  "x-9#[KphA@c5tb7!=Ke5": {
+    "id": "x-9#[KphA@c5tb7!=Ke5",
+    "name": "GAME main menu",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "GAME main menu"
   }
 }

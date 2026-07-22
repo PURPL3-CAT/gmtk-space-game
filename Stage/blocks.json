@@ -1,4 +1,90 @@
 {
-  "blocks": {},
-  "scripts": []
+  "blocks": {
+    "event_whenflagclicked1": {
+      "id": "event_whenflagclicked1",
+      "opcode": "event_whenflagclicked",
+      "inputs": {},
+      "fields": {},
+      "next": "event_broadcastandwait1",
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": 291.99999999999994,
+      "y": 222.25925925925935
+    },
+    "event_broadcastandwait1": {
+      "id": "event_broadcastandwait1",
+      "opcode": "event_broadcastandwait",
+      "inputs": {
+        "BROADCAST_INPUT": {
+          "name": "BROADCAST_INPUT",
+          "block": "event_broadcast_menu1",
+          "shadow": "event_broadcast_menu1"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "event_whenflagclicked1",
+      "shadow": false,
+      "x": "-358",
+      "y": "543"
+    },
+    "event_broadcast_menu1": {
+      "id": "event_broadcast_menu1",
+      "opcode": "event_broadcast_menu",
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "id": "X$b7KhkWBuw^}6#}%6`n",
+          "value": "GAME begin",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "event_broadcastandwait1",
+      "shadow": true
+    },
+    "event_broadcastandwait2": {
+      "id": "event_broadcastandwait2",
+      "opcode": "event_broadcastandwait",
+      "inputs": {
+        "BROADCAST_INPUT": {
+          "name": "BROADCAST_INPUT",
+          "block": "event_broadcast_menu2",
+          "shadow": "event_broadcast_menu2"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": 542.8408367865627,
+      "y": 186.72022769530167
+    },
+    "event_broadcast_menu2": {
+      "id": "event_broadcast_menu2",
+      "opcode": "event_broadcast_menu",
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "id": "x-9#[KphA@c5tb7!=Ke5",
+          "value": "GAME main menu",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "event_broadcastandwait2",
+      "shadow": true
+    }
+  },
+  "scripts": [
+    "event_whenflagclicked1",
+    "event_broadcastandwait2"
+  ]
 }

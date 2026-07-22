@@ -1,1 +1,12 @@
-{}
+{
+  "j=Wn%LIbqu5GD+-JFO[V": {
+    "id": "j=Wn%LIbqu5GD+-JFO[V",
+    "text": "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{\"framerate\":60,\"runtimeOptions\":{\"maxClones\":Infinity,\"miscLimits\":false,\"fencing\":false},\"hq\":true,\"width\":640} // _twconfig_",
+    "x": 50,
+    "y": 50,
+    "width": 350,
+    "height": 170,
+    "minimized": false,
+    "blockId": null
+  }
+}

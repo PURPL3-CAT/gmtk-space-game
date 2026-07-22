@@ -1,0 +1,26 @@
+[
+  {
+    "name": "costume1",
+    "dataFormat": "png",
+    "rotationCenterX": 75,
+    "rotationCenterY": 31
+  },
+  {
+    "name": "thruster",
+    "dataFormat": "png",
+    "rotationCenterX": 45,
+    "rotationCenterY": 30
+  },
+  {
+    "name": "rin",
+    "dataFormat": "png",
+    "rotationCenterX": 30,
+    "rotationCenterY": 52
+  },
+  {
+    "name": "window",
+    "dataFormat": "png",
+    "rotationCenterX": 28,
+    "rotationCenterY": 30
+  }
+]

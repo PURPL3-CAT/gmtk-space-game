@@ -1,0 +1,941 @@
+{
+  "blocks": {
+    "event_whenbroadcastreceived1": {
+      "id": "event_whenbroadcastreceived1",
+      "opcode": "event_whenbroadcastreceived",
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "id": "X$b7KhkWBuw^}6#}%6`n",
+          "value": "GAME begin",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "next": null,
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": -331,
+      "y": 142
+    },
+    "event_whenthisspriteclicked1": {
+      "id": "event_whenthisspriteclicked1",
+      "opcode": "event_whenthisspriteclicked",
+      "inputs": {},
+      "fields": {},
+      "next": "lmsTempVars2_setThreadVariable1",
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": -325,
+      "y": 281
+    },
+    "lmsTempVars2_setThreadVariable1": {
+      "id": "lmsTempVars2_setThreadVariable1",
+      "opcode": "lmsTempVars2_setThreadVariable",
+      "inputs": {
+        "VAR": {
+          "name": "VAR",
+          "block": "text5",
+          "shadow": "text5"
+        },
+        "STRING": {
+          "name": "STRING",
+          "block": "operator_subtract2",
+          "shadow": "text6"
+        }
+      },
+      "fields": {},
+      "next": "lmsTempVars2_setThreadVariable2",
+      "topLevel": false,
+      "parent": "event_whenthisspriteclicked1",
+      "shadow": false
+    },
+    "text5": {
+      "id": "text5",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "DragOffsetX"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable1",
+      "shadow": true
+    },
+    "operator_subtract2": {
+      "id": "operator_subtract2",
+      "opcode": "operator_subtract",
+      "inputs": {
+        "NUM1": {
+          "name": "NUM1",
+          "block": "motion_xposition1",
+          "shadow": "math_number9"
+        },
+        "NUM2": {
+          "name": "NUM2",
+          "block": "sensing_mousex2",
+          "shadow": "math_number10"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable1",
+      "shadow": false
+    },
+    "motion_xposition1": {
+      "id": "motion_xposition1",
+      "opcode": "motion_xposition",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract2",
+      "shadow": false
+    },
+    "math_number9": {
+      "id": "math_number9",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract2",
+      "shadow": true,
+      "x": "309.4089806253858",
+      "y": "451.98549958627166"
+    },
+    "sensing_mousex2": {
+      "id": "sensing_mousex2",
+      "opcode": "sensing_mousex",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract2",
+      "shadow": false
+    },
+    "math_number10": {
+      "id": "math_number10",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract2",
+      "shadow": true,
+      "x": "422.217864292378",
+      "y": "455.98549958627166"
+    },
+    "text6": {
+      "id": "text6",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "0"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable1",
+      "shadow": true,
+      "x": "357.8707636195776",
+      "y": "191.66149112428883"
+    },
+    "lmsTempVars2_setThreadVariable2": {
+      "id": "lmsTempVars2_setThreadVariable2",
+      "opcode": "lmsTempVars2_setThreadVariable",
+      "inputs": {
+        "VAR": {
+          "name": "VAR",
+          "block": "text3",
+          "shadow": "text3"
+        },
+        "STRING": {
+          "name": "STRING",
+          "block": "operator_subtract1",
+          "shadow": "text4"
+        }
+      },
+      "fields": {},
+      "next": "control_repeat_until1",
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable1",
+      "shadow": false
+    },
+    "text3": {
+      "id": "text3",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "DragOffsetY"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable2",
+      "shadow": true
+    },
+    "operator_subtract1": {
+      "id": "operator_subtract1",
+      "opcode": "operator_subtract",
+      "inputs": {
+        "NUM1": {
+          "name": "NUM1",
+          "block": "motion_yposition1",
+          "shadow": "math_number7"
+        },
+        "NUM2": {
+          "name": "NUM2",
+          "block": "sensing_mousey2",
+          "shadow": "math_number8"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable2",
+      "shadow": false
+    },
+    "motion_yposition1": {
+      "id": "motion_yposition1",
+      "opcode": "motion_yposition",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract1",
+      "shadow": false
+    },
+    "math_number7": {
+      "id": "math_number7",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract1",
+      "shadow": true,
+      "x": "160.27095511674406",
+      "y": "447.4939363152681"
+    },
+    "sensing_mousey2": {
+      "id": "sensing_mousey2",
+      "opcode": "sensing_mousey",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract1",
+      "shadow": false
+    },
+    "math_number8": {
+      "id": "math_number8",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_subtract1",
+      "shadow": true,
+      "x": "273.07983878373625",
+      "y": "451.4939363152681"
+    },
+    "text4": {
+      "id": "text4",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "0"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable2",
+      "shadow": true,
+      "x": "357.8707636195776",
+      "y": "239.6614911242889"
+    },
+    "control_repeat_until1": {
+      "id": "control_repeat_until1",
+      "opcode": "control_repeat_until",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "operator_not1",
+          "shadow": null
+        },
+        "SUBSTACK": {
+          "name": "SUBSTACK",
+          "block": "motion_gotoxy1",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_setThreadVariable2",
+      "shadow": false
+    },
+    "operator_not1": {
+      "id": "operator_not1",
+      "opcode": "operator_not",
+      "inputs": {
+        "OPERAND": {
+          "name": "OPERAND",
+          "block": "sensing_mousedown1",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_repeat_until1",
+      "shadow": false
+    },
+    "sensing_mousedown1": {
+      "id": "sensing_mousedown1",
+      "opcode": "sensing_mousedown",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_not1",
+      "shadow": false
+    },
+    "motion_gotoxy1": {
+      "id": "motion_gotoxy1",
+      "opcode": "motion_gotoxy",
+      "inputs": {
+        "X": {
+          "name": "X",
+          "block": "operator_add1",
+          "shadow": "math_number3"
+        },
+        "Y": {
+          "name": "Y",
+          "block": "operator_add2",
+          "shadow": "math_number6"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_repeat_until1",
+      "shadow": false
+    },
+    "operator_add1": {
+      "id": "operator_add1",
+      "opcode": "operator_add",
+      "inputs": {
+        "NUM1": {
+          "name": "NUM1",
+          "block": "sensing_mousex1",
+          "shadow": "math_number1"
+        },
+        "NUM2": {
+          "name": "NUM2",
+          "block": "lmsTempVars2_getThreadVariable1",
+          "shadow": "math_number2"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_gotoxy1",
+      "shadow": false
+    },
+    "sensing_mousex1": {
+      "id": "sensing_mousex1",
+      "opcode": "sensing_mousex",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add1",
+      "shadow": false
+    },
+    "math_number1": {
+      "id": "math_number1",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add1",
+      "shadow": true,
+      "x": "146.38833258001463",
+      "y": "359.13933469280096"
+    },
+    "lmsTempVars2_getThreadVariable1": {
+      "id": "lmsTempVars2_getThreadVariable1",
+      "opcode": "lmsTempVars2_getThreadVariable",
+      "inputs": {
+        "VAR": {
+          "name": "VAR",
+          "block": "text1",
+          "shadow": "text1"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add1",
+      "shadow": false
+    },
+    "text1": {
+      "id": "text1",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "DragOffsetX"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_getThreadVariable1",
+      "shadow": true
+    },
+    "math_number2": {
+      "id": "math_number2",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add1",
+      "shadow": true,
+      "x": "256.21255133001466",
+      "y": "359.13933469280084"
+    },
+    "math_number3": {
+      "id": "math_number3",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "165"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_gotoxy1",
+      "shadow": true,
+      "x": "142.38833258001463",
+      "y": "355.13933469280084"
+    },
+    "operator_add2": {
+      "id": "operator_add2",
+      "opcode": "operator_add",
+      "inputs": {
+        "NUM1": {
+          "name": "NUM1",
+          "block": "sensing_mousey1",
+          "shadow": "math_number4"
+        },
+        "NUM2": {
+          "name": "NUM2",
+          "block": "lmsTempVars2_getThreadVariable2",
+          "shadow": "math_number5"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_gotoxy1",
+      "shadow": false
+    },
+    "sensing_mousey1": {
+      "id": "sensing_mousey1",
+      "opcode": "sensing_mousey",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add2",
+      "shadow": false
+    },
+    "math_number4": {
+      "id": "math_number4",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add2",
+      "shadow": true,
+      "x": "332.6546804651465",
+      "y": "359.13933469280084"
+    },
+    "lmsTempVars2_getThreadVariable2": {
+      "id": "lmsTempVars2_getThreadVariable2",
+      "opcode": "lmsTempVars2_getThreadVariable",
+      "inputs": {
+        "VAR": {
+          "name": "VAR",
+          "block": "text2",
+          "shadow": "text2"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add2",
+      "shadow": false
+    },
+    "text2": {
+      "id": "text2",
+      "opcode": "text",
+      "inputs": {},
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "DragOffsetY"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "lmsTempVars2_getThreadVariable2",
+      "shadow": true
+    },
+    "math_number5": {
+      "id": "math_number5",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": ""
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_add2",
+      "shadow": true,
+      "x": "576.3724157556738",
+      "y": "359.13933469280084"
+    },
+    "math_number6": {
+      "id": "math_number6",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "-33"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_gotoxy1",
+      "shadow": true,
+      "x": "284.1859304651465",
+      "y": "355.13933469280084"
+    },
+    "event_whenthisspriteclicked2": {
+      "id": "event_whenthisspriteclicked2",
+      "opcode": "event_whenthisspriteclicked",
+      "inputs": {},
+      "fields": {},
+      "next": "control_repeat_until2",
+      "topLevel": true,
+      "parent": null,
+      "shadow": false,
+      "x": 584,
+      "y": 128
+    },
+    "control_repeat_until2": {
+      "id": "control_repeat_until2",
+      "opcode": "control_repeat_until",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "operator_not2",
+          "shadow": null
+        },
+        "SUBSTACK": {
+          "name": "SUBSTACK",
+          "block": "control_if1",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "event_whenthisspriteclicked2",
+      "shadow": false
+    },
+    "operator_not2": {
+      "id": "operator_not2",
+      "opcode": "operator_not",
+      "inputs": {
+        "OPERAND": {
+          "name": "OPERAND",
+          "block": "sensing_mousedown2",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_repeat_until2",
+      "shadow": false
+    },
+    "sensing_mousedown2": {
+      "id": "sensing_mousedown2",
+      "opcode": "sensing_mousedown",
+      "inputs": {},
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_not2",
+      "shadow": false
+    },
+    "control_if1": {
+      "id": "control_if1",
+      "opcode": "control_if",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "sensing_keypressed3",
+          "shadow": null
+        },
+        "SUBSTACK": {
+          "name": "SUBSTACK",
+          "block": "motion_turnleft1",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": "control_if2",
+      "topLevel": false,
+      "parent": "control_repeat_until2",
+      "shadow": false
+    },
+    "sensing_keypressed3": {
+      "id": "sensing_keypressed3",
+      "opcode": "sensing_keypressed",
+      "inputs": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "block": "sensing_keyoptions3",
+          "shadow": "sensing_keyoptions3"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_if1",
+      "shadow": false
+    },
+    "sensing_keyoptions3": {
+      "id": "sensing_keyoptions3",
+      "opcode": "sensing_keyoptions",
+      "inputs": {},
+      "fields": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "value": "q"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "sensing_keypressed3",
+      "shadow": true
+    },
+    "motion_turnleft1": {
+      "id": "motion_turnleft1",
+      "opcode": "motion_turnleft",
+      "inputs": {
+        "DEGREES": {
+          "name": "DEGREES",
+          "block": "math_number12",
+          "shadow": "math_number12"
+        }
+      },
+      "fields": {},
+      "next": "control_wait_until2",
+      "topLevel": false,
+      "parent": "control_if1",
+      "shadow": false
+    },
+    "math_number12": {
+      "id": "math_number12",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "90"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_turnleft1",
+      "shadow": true
+    },
+    "control_wait_until2": {
+      "id": "control_wait_until2",
+      "opcode": "control_wait_until",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "operator_not4",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_turnleft1",
+      "shadow": false
+    },
+    "operator_not4": {
+      "id": "operator_not4",
+      "opcode": "operator_not",
+      "inputs": {
+        "OPERAND": {
+          "name": "OPERAND",
+          "block": "sensing_keypressed4",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_wait_until2",
+      "shadow": false
+    },
+    "sensing_keypressed4": {
+      "id": "sensing_keypressed4",
+      "opcode": "sensing_keypressed",
+      "inputs": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "block": "sensing_keyoptions4",
+          "shadow": "sensing_keyoptions4"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_not4",
+      "shadow": false
+    },
+    "sensing_keyoptions4": {
+      "id": "sensing_keyoptions4",
+      "opcode": "sensing_keyoptions",
+      "inputs": {},
+      "fields": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "value": "q"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "sensing_keypressed4",
+      "shadow": true
+    },
+    "control_if2": {
+      "id": "control_if2",
+      "opcode": "control_if",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "sensing_keypressed1",
+          "shadow": null
+        },
+        "SUBSTACK": {
+          "name": "SUBSTACK",
+          "block": "motion_turnright1",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_if1",
+      "shadow": false
+    },
+    "sensing_keypressed1": {
+      "id": "sensing_keypressed1",
+      "opcode": "sensing_keypressed",
+      "inputs": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "block": "sensing_keyoptions1",
+          "shadow": "sensing_keyoptions1"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_if2",
+      "shadow": false
+    },
+    "sensing_keyoptions1": {
+      "id": "sensing_keyoptions1",
+      "opcode": "sensing_keyoptions",
+      "inputs": {},
+      "fields": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "value": "e"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "sensing_keypressed1",
+      "shadow": true
+    },
+    "motion_turnright1": {
+      "id": "motion_turnright1",
+      "opcode": "motion_turnright",
+      "inputs": {
+        "DEGREES": {
+          "name": "DEGREES",
+          "block": "math_number11",
+          "shadow": "math_number11"
+        }
+      },
+      "fields": {},
+      "next": "control_wait_until1",
+      "topLevel": false,
+      "parent": "control_if2",
+      "shadow": false
+    },
+    "math_number11": {
+      "id": "math_number11",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "90"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_turnright1",
+      "shadow": true
+    },
+    "control_wait_until1": {
+      "id": "control_wait_until1",
+      "opcode": "control_wait_until",
+      "inputs": {
+        "CONDITION": {
+          "name": "CONDITION",
+          "block": "operator_not3",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "motion_turnright1",
+      "shadow": false
+    },
+    "operator_not3": {
+      "id": "operator_not3",
+      "opcode": "operator_not",
+      "inputs": {
+        "OPERAND": {
+          "name": "OPERAND",
+          "block": "sensing_keypressed2",
+          "shadow": null
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "control_wait_until1",
+      "shadow": false
+    },
+    "sensing_keypressed2": {
+      "id": "sensing_keypressed2",
+      "opcode": "sensing_keypressed",
+      "inputs": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "block": "sensing_keyoptions2",
+          "shadow": "sensing_keyoptions2"
+        }
+      },
+      "fields": {},
+      "next": null,
+      "topLevel": false,
+      "parent": "operator_not3",
+      "shadow": false
+    },
+    "sensing_keyoptions2": {
+      "id": "sensing_keyoptions2",
+      "opcode": "sensing_keyoptions",
+      "inputs": {},
+      "fields": {
+        "KEY_OPTION": {
+          "name": "KEY_OPTION",
+          "value": "e"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "sensing_keypressed2",
+      "shadow": true
+    }
+  },
+  "scripts": [
+    "event_whenbroadcastreceived1",
+    "event_whenthisspriteclicked1",
+    "event_whenthisspriteclicked2"
+  ]
+}
