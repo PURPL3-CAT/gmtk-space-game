@@ -1,0 +1,26 @@
+[
+  {
+    "name": "stars0",
+    "dataFormat": "png",
+    "rotationCenterX": 34,
+    "rotationCenterY": 8
+  },
+  {
+    "name": "stars1",
+    "dataFormat": "png",
+    "rotationCenterX": 34,
+    "rotationCenterY": 8
+  },
+  {
+    "name": "stars2",
+    "dataFormat": "png",
+    "rotationCenterX": 34,
+    "rotationCenterY": 8
+  },
+  {
+    "name": "stars3",
+    "dataFormat": "png",
+    "rotationCenterX": 34,
+    "rotationCenterY": 8
+  }
+]

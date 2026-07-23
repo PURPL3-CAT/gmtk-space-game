@@ -1,0 +1,1641 @@
+{
+  "blocks": {
+    "event_whenbroadcastreceived1": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect1",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "Body",
+          "id": "^y%zj*[2)y-pS@YA|+tu",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 1008,
+      "id": "event_whenbroadcastreceived1"
+    },
+    "theshovelcanvaseffects_seteffect1": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive1",
+      "parent": "event_whenbroadcastreceived1",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU1",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU1"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number1",
+          "shadow": "math_number1"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect1"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU1": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect1",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU1"
+    },
+    "iframe_setInteractive1": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML1",
+      "parent": "theshovelcanvaseffects_seteffect1",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu1",
+          "shadow": "iframe_menu_interactiveMenu1"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive1"
+    },
+    "iframe_menu_interactiveMenu1": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive1",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu1"
+    },
+    "iframe_displayHTML1": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive1",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text1",
+          "shadow": "text1"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML1"
+    },
+    "event_whenflagclicked1": {
+      "opcode": "event_whenflagclicked",
+      "next": "looks_setsizeto1",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 64,
+      "id": "event_whenflagclicked1"
+    },
+    "motion_gotoxy1": {
+      "opcode": "motion_gotoxy",
+      "next": "looks_hide1",
+      "parent": "looks_setsizeto1",
+      "inputs": {
+        "X": {
+          "name": "X",
+          "block": "math_number3",
+          "shadow": "math_number3"
+        },
+        "Y": {
+          "name": "Y",
+          "block": "math_number4",
+          "shadow": "math_number4"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "motion_gotoxy1"
+    },
+    "theshovelcanvaseffects_seteffect2": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_close1",
+      "parent": "looks_hide1",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU2",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU2"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number2",
+          "shadow": "math_number2"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect2"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU2": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect2",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU2"
+    },
+    "iframe_close1": {
+      "opcode": "iframe_close",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect2",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_close1"
+    },
+    "event_whenbroadcastreceived2": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect3",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "Windows",
+          "id": "c?L#51.#1:Q{u9h1$T@0",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 1280,
+      "id": "event_whenbroadcastreceived2"
+    },
+    "theshovelcanvaseffects_seteffect3": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive2",
+      "parent": "event_whenbroadcastreceived2",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU3",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU3"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number6",
+          "shadow": "math_number6"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect3"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU3": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect3",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU3"
+    },
+    "iframe_setInteractive2": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML2",
+      "parent": "theshovelcanvaseffects_seteffect3",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu2",
+          "shadow": "iframe_menu_interactiveMenu2"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive2"
+    },
+    "iframe_menu_interactiveMenu2": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive2",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu2"
+    },
+    "iframe_displayHTML2": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive2",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text2",
+          "shadow": "text2"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML2"
+    },
+    "event_whenbroadcastreceived3": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect4",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "NoseCone",
+          "id": "edp?C};k@B||N{dL%CY7",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 1552,
+      "id": "event_whenbroadcastreceived3"
+    },
+    "theshovelcanvaseffects_seteffect4": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive3",
+      "parent": "event_whenbroadcastreceived3",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU4",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU4"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number7",
+          "shadow": "math_number7"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect4"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU4": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect4",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU4"
+    },
+    "iframe_setInteractive3": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML3",
+      "parent": "theshovelcanvaseffects_seteffect4",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu3",
+          "shadow": "iframe_menu_interactiveMenu3"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive3"
+    },
+    "iframe_menu_interactiveMenu3": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive3",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu3"
+    },
+    "iframe_displayHTML3": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive3",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text3",
+          "shadow": "text3"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML3"
+    },
+    "iframe_whenMessage1": {
+      "opcode": "iframe_whenMessage",
+      "next": "iframe_setInteractive4",
+      "parent": null,
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 432,
+      "id": "iframe_whenMessage1"
+    },
+    "iframe_setInteractive4": {
+      "opcode": "iframe_setInteractive",
+      "next": "control_wait1",
+      "parent": "iframe_whenMessage1",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu4",
+          "shadow": "iframe_menu_interactiveMenu4"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive4"
+    },
+    "iframe_menu_interactiveMenu4": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive4",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "false",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu4"
+    },
+    "control_wait1": {
+      "opcode": "control_wait",
+      "next": "motion_gotoxy2",
+      "parent": "iframe_setInteractive4",
+      "inputs": {
+        "DURATION": {
+          "name": "DURATION",
+          "block": "math_positive_number2",
+          "shadow": "math_positive_number2"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "control_wait1"
+    },
+    "motion_gotoxy2": {
+      "opcode": "motion_gotoxy",
+      "next": "theshovelcanvaseffects_seteffect5",
+      "parent": "control_wait1",
+      "inputs": {
+        "X": {
+          "name": "X",
+          "block": "math_number9",
+          "shadow": "math_number9"
+        },
+        "Y": {
+          "name": "Y",
+          "block": "math_number10",
+          "shadow": "math_number10"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "motion_gotoxy2"
+    },
+    "theshovelcanvaseffects_seteffect5": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_close2",
+      "parent": "motion_gotoxy2",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU5",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU5"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number8",
+          "shadow": "math_number8"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect5"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU5": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect5",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU5"
+    },
+    "iframe_close2": {
+      "opcode": "iframe_close",
+      "next": "looks_show1",
+      "parent": "theshovelcanvaseffects_seteffect5",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_close2"
+    },
+    "looks_show1": {
+      "opcode": "looks_show",
+      "next": "looks_switchcostumeto1",
+      "parent": "iframe_close2",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "looks_show1"
+    },
+    "looks_switchcostumeto1": {
+      "opcode": "looks_switchcostumeto",
+      "next": "control_wait2",
+      "parent": "looks_show1",
+      "inputs": {
+        "COSTUME": {
+          "name": "COSTUME",
+          "block": "operator_join1",
+          "shadow": "looks_costume1"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "looks_switchcostumeto1"
+    },
+    "operator_join1": {
+      "opcode": "operator_join",
+      "next": null,
+      "parent": "looks_switchcostumeto1",
+      "inputs": {
+        "STRING1": {
+          "name": "STRING1",
+          "block": "text4",
+          "shadow": "text4"
+        },
+        "STRING2": {
+          "name": "STRING2",
+          "block": "skyhigh173JSON_json_get1",
+          "shadow": "text7"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "operator_join1"
+    },
+    "skyhigh173JSON_json_get1": {
+      "opcode": "skyhigh173JSON_json_get",
+      "next": null,
+      "parent": "operator_join1",
+      "inputs": {
+        "item": {
+          "name": "item",
+          "block": "text5",
+          "shadow": "text5"
+        },
+        "json": {
+          "name": "json",
+          "block": "iframe_iframeMessage1",
+          "shadow": "text6"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "skyhigh173JSON_json_get1"
+    },
+    "iframe_iframeMessage1": {
+      "opcode": "iframe_iframeMessage",
+      "next": null,
+      "parent": "skyhigh173JSON_json_get1",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_iframeMessage1"
+    },
+    "looks_costume1": {
+      "opcode": "looks_costume",
+      "next": null,
+      "parent": "looks_switchcostumeto1",
+      "inputs": {},
+      "fields": {
+        "COSTUME": {
+          "name": "COSTUME",
+          "value": "stars3",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "looks_costume1"
+    },
+    "control_wait2": {
+      "opcode": "control_wait",
+      "next": "looks_hide2",
+      "parent": "looks_switchcostumeto1",
+      "inputs": {
+        "DURATION": {
+          "name": "DURATION",
+          "block": "math_positive_number1",
+          "shadow": "math_positive_number1"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "control_wait2"
+    },
+    "looks_hide2": {
+      "opcode": "looks_hide",
+      "next": null,
+      "parent": "control_wait2",
+      "inputs": {},
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "looks_hide2"
+    },
+    "event_whenbroadcastreceived4": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect6",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "FuelTank",
+          "id": "fAF}S32L:%A[3Hh*]?:@",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 1824,
+      "id": "event_whenbroadcastreceived4"
+    },
+    "theshovelcanvaseffects_seteffect6": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive5",
+      "parent": "event_whenbroadcastreceived4",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU6",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU6"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number11",
+          "shadow": "math_number11"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect6"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU6": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect6",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU6"
+    },
+    "iframe_setInteractive5": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML4",
+      "parent": "theshovelcanvaseffects_seteffect6",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu5",
+          "shadow": "iframe_menu_interactiveMenu5"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive5"
+    },
+    "iframe_menu_interactiveMenu5": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive5",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu5"
+    },
+    "iframe_displayHTML4": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive5",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text8",
+          "shadow": "text8"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML4"
+    },
+    "event_whenbroadcastreceived5": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect7",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "CargoBay",
+          "id": "5]]i7RzsBZq$K0aU**U6",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 2096,
+      "id": "event_whenbroadcastreceived5"
+    },
+    "theshovelcanvaseffects_seteffect7": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive6",
+      "parent": "event_whenbroadcastreceived5",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU7",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU7"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number12",
+          "shadow": "math_number12"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect7"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU7": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect7",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU7"
+    },
+    "iframe_setInteractive6": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML5",
+      "parent": "theshovelcanvaseffects_seteffect7",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu6",
+          "shadow": "iframe_menu_interactiveMenu6"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive6"
+    },
+    "iframe_menu_interactiveMenu6": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive6",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu6"
+    },
+    "iframe_displayHTML5": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive6",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text9",
+          "shadow": "text9"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML5"
+    },
+    "event_whenbroadcastreceived6": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect8",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "AdvertisingPanels",
+          "id": "eHVwl1UwxaE)r:gKR~{H",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 2368,
+      "id": "event_whenbroadcastreceived6"
+    },
+    "theshovelcanvaseffects_seteffect8": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive7",
+      "parent": "event_whenbroadcastreceived6",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU8",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU8"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number13",
+          "shadow": "math_number13"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect8"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU8": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect8",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU8"
+    },
+    "iframe_setInteractive7": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML6",
+      "parent": "theshovelcanvaseffects_seteffect8",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu7",
+          "shadow": "iframe_menu_interactiveMenu7"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive7"
+    },
+    "iframe_menu_interactiveMenu7": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive7",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu7"
+    },
+    "iframe_displayHTML6": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive7",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text10",
+          "shadow": "text10"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML6"
+    },
+    "event_whenbroadcastreceived7": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect9",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "Thrusters",
+          "id": "V,zpOO?*cV-EcwsqbEz{",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 2640,
+      "id": "event_whenbroadcastreceived7"
+    },
+    "theshovelcanvaseffects_seteffect9": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive8",
+      "parent": "event_whenbroadcastreceived7",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU9",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU9"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number14",
+          "shadow": "math_number14"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect9"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU9": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect9",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU9"
+    },
+    "iframe_setInteractive8": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML7",
+      "parent": "theshovelcanvaseffects_seteffect9",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu8",
+          "shadow": "iframe_menu_interactiveMenu8"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive8"
+    },
+    "iframe_menu_interactiveMenu8": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive8",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu8"
+    },
+    "iframe_displayHTML7": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive8",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text11",
+          "shadow": "text11"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML7"
+    },
+    "event_whenbroadcastreceived8": {
+      "opcode": "event_whenbroadcastreceived",
+      "next": "theshovelcanvaseffects_seteffect10",
+      "parent": null,
+      "inputs": {},
+      "fields": {
+        "BROADCAST_OPTION": {
+          "name": "BROADCAST_OPTION",
+          "value": "FIns",
+          "id": "FuLC;cfr:.|j%bTpI#J}",
+          "variableType": "broadcast_msg"
+        }
+      },
+      "shadow": false,
+      "topLevel": true,
+      "x": 48,
+      "y": 2912,
+      "id": "event_whenbroadcastreceived8"
+    },
+    "theshovelcanvaseffects_seteffect10": {
+      "opcode": "theshovelcanvaseffects_seteffect",
+      "next": "iframe_setInteractive9",
+      "parent": "event_whenbroadcastreceived8",
+      "inputs": {
+        "EFFECT": {
+          "name": "EFFECT",
+          "block": "theshovelcanvaseffects_menu_EFFECTMENU10",
+          "shadow": "theshovelcanvaseffects_menu_EFFECTMENU10"
+        },
+        "NUMBER": {
+          "name": "NUMBER",
+          "block": "math_number15",
+          "shadow": "math_number15"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_seteffect10"
+    },
+    "theshovelcanvaseffects_menu_EFFECTMENU10": {
+      "opcode": "theshovelcanvaseffects_menu_EFFECTMENU",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect10",
+      "inputs": {},
+      "fields": {
+        "EFFECTMENU": {
+          "name": "EFFECTMENU",
+          "value": "blur",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "theshovelcanvaseffects_menu_EFFECTMENU10"
+    },
+    "iframe_setInteractive9": {
+      "opcode": "iframe_setInteractive",
+      "next": "iframe_displayHTML8",
+      "parent": "theshovelcanvaseffects_seteffect10",
+      "inputs": {
+        "INTERACTIVE": {
+          "name": "INTERACTIVE",
+          "block": "iframe_menu_interactiveMenu9",
+          "shadow": "iframe_menu_interactiveMenu9"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_setInteractive9"
+    },
+    "iframe_menu_interactiveMenu9": {
+      "opcode": "iframe_menu_interactiveMenu",
+      "next": null,
+      "parent": "iframe_setInteractive9",
+      "inputs": {},
+      "fields": {
+        "interactiveMenu": {
+          "name": "interactiveMenu",
+          "value": "true",
+          "id": null
+        }
+      },
+      "shadow": true,
+      "topLevel": false,
+      "id": "iframe_menu_interactiveMenu9"
+    },
+    "iframe_displayHTML8": {
+      "opcode": "iframe_displayHTML",
+      "next": null,
+      "parent": "iframe_setInteractive9",
+      "inputs": {
+        "HTML": {
+          "name": "HTML",
+          "block": "text12",
+          "shadow": "text12"
+        }
+      },
+      "fields": {},
+      "shadow": false,
+      "topLevel": false,
+      "id": "iframe_displayHTML8"
+    },
+    "math_number1": {
+      "id": "math_number1",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text1": {
+      "id": "text1",
+      "next": null,
+      "parent": "iframe_displayHTML1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;overflow:hidden;border:3px solid #555;color:white;font-family:sans-serif;} .block{width:80px;height:20px;background:#4aa3ff;position:absolute;} #msg{position:absolute;bottom:5px;width:100%;text-align:center;} </style> </head> <body>  <div id=\"panel\">   <div id=\"msg\"></div> </div>  <script> let panel=document.getElementById(\"panel\"); let msg=document.getElementById(\"msg\"); let blocks=[]; let current=null; let dir=1; let speed=2; let baseY=260; let dropping=false; let dropV=6;  function spawnBlock(){   current=document.createElement(\"div\");   current.className=\"block\";   current.style.top=\"20px\";   current.style.left=\"10px\";   panel.appendChild(current);   dir=1;   dropping=false; }  function moveBlock(){   if(current){     if(!dropping){       let x=current.offsetLeft+speed*dir;       if(x<0){x=0;dir=1;}       if(x>220){x=220;dir=-1;}       current.style.left=x+\"px\";     }else{       let y=current.offsetTop+dropV;       if(y>=baseY){         y=baseY;         current.style.top=y+\"px\";         blocks.push(current);         baseY-=22;         current=null;         if(blocks.length>=3){finish();}         else{spawnBlock();}       }else{         current.style.top=y+\"px\";       }     }   }   requestAnimationFrame(moveBlock); }  function finish(){   let score=3;   for(let i=1;i<blocks.length;i++){     let a=blocks[i].offsetLeft;     let b=blocks[i-1].offsetLeft;     let diff=Math.abs(a-b);     if(diff>40){score=0;break;}     if(diff>25&&score>1){score=1;}     if(diff>15&&score>2){score=2;}   }   window.parent.postMessage({type:\"bodyScore\",score:score},\"*\"); }  panel.onclick=()=>{   if(current&&!dropping){dropping=true;} };  spawnBlock(); moveBlock(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number3": {
+      "id": "math_number3",
+      "next": null,
+      "parent": "motion_gotoxy1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number4": {
+      "id": "math_number4",
+      "next": null,
+      "parent": "motion_gotoxy1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number2": {
+      "id": "math_number2",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect2",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number6": {
+      "id": "math_number6",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect3",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text2": {
+      "id": "text2",
+      "next": null,
+      "parent": "iframe_displayHTML2",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;color:white;font-family:sans-serif;} #msg{position:absolute;bottom:5px;width:100%;text-align:center;} canvas{position:absolute;top:0;left:0;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <div id=\"msg\"></div> </div>  <script> let panel=document.getElementById(\"panel\"); let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let msg=document.getElementById(\"msg\"); let painting=false; let cleaned=0; let total=0; let gridSize=10; let cols=300/gridSize; let rows=300/gridSize; let grid=[]; let lastX=0; let lastY=0; let ended=false;  for(let y=0;y<rows;y++){   grid[y]=[];   for(let x=0;x<cols;x++){     grid[y][x]=0;     total++;   } }  ctx.fillStyle=\"#8b5a2b\"; ctx.fillRect(0,0,300,300);  function markCell(x,y){   let gx=Math.floor(x/gridSize);   let gy=Math.floor(y/gridSize);   if(gx>=0&&gx<cols&&gy>=0&&gy<rows){     if(grid[gy][gx]===0){       grid[gy][gx]=1;       cleaned++;     }   } }  function paintLine(x1,y1,x2,y2){   ctx.strokeStyle=\"#88ccee\";   ctx.lineWidth=48;   ctx.lineCap=\"round\";   ctx.beginPath();   ctx.moveTo(x1,y1);   ctx.lineTo(x2,y2);   ctx.stroke();   let steps=20;   for(let i=0;i<=steps;i++){     let t=i/steps;     let x=x1+(x2-x1)*t;     let y=y1+(y2-y1)*t;     markCell(x,y);   } }  function finish(){   if(ended)return;   ended=true;   let ratio=cleaned/total;   let score=ratio>0.8?3:ratio>0.6?2:ratio>0.4?1:0;   window.parent.postMessage({type:\"windowsScore\",score:score},\"*\"); }  c.onmousedown=e=>{   painting=true;   let r=c.getBoundingClientRect();   lastX=e.clientX-r.left;   lastY=e.clientY-r.top;   paintLine(lastX,lastY,lastX,lastY); };  c.onmouseup=e=>{   painting=false;   finish(); };  c.onmousemove=e=>{   if(!painting)return;   let r=c.getBoundingClientRect();   let x=e.clientX-r.left;   let y=e.clientY-r.top;   paintLine(lastX,lastY,x,y);   lastX=x;   lastY=y; };  setTimeout(()=>{finish();},7000); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number7": {
+      "id": "math_number7",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect4",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text3": {
+      "id": "text3",
+      "next": null,
+      "parent": "iframe_displayHTML3",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;color:white;font-family:sans-serif;} #msg{position:absolute;bottom:5px;width:100%;text-align:center;} canvas{position:absolute;top:0;left:0;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <div id=\"msg\"></div> </div>  <script> let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let msg=document.getElementById(\"msg\"); let drawing=false; let pts=[]; let lastX=0; let lastY=0;  ctx.fillStyle=\"#222\"; ctx.fillRect(0,0,300,300);  function addPoint(x,y){   pts.push({x:x,y:y}); }  function drawLine(x1,y1,x2,y2){   ctx.strokeStyle=\"#4aa3ff\";   ctx.lineWidth=4;   ctx.lineCap=\"round\";   ctx.beginPath();   ctx.moveTo(x1,y1);   ctx.lineTo(x2,y2);   ctx.stroke();   let steps=10;   for(let i=0;i<=steps;i++){     let t=i/steps;     let x=x1+(x2-x1)*t;     let y=y1+(y2-y1)*t;     addPoint(x,y);   } }  function finish(){   if(pts.length<10)return;   let cx=150;   let cy=150;   let radii=pts.map(p=>Math.hypot(p.x-cx,p.y-cy));   let avg=radii.reduce((a,b)=>a+b,0)/radii.length;   let diffs=radii.map(r=>Math.abs(r-avg));   let err=diffs.reduce((a,b)=>a+b,0)/diffs.length;   let score=err<8?3:err<20?2:err<35?1:0;   window.parent.postMessage({type:\"noseScore\",score:score},\"*\"); }  c.onmousedown=e=>{   drawing=true;   let r=c.getBoundingClientRect();   lastX=e.clientX-r.left;   lastY=e.clientY-r.top;   addPoint(lastX,lastY); };  c.onmouseup=e=>{   drawing=false;   finish(); };  c.onmousemove=e=>{   if(!drawing)return;   let r=c.getBoundingClientRect();   let x=e.clientX-r.left;   let y=e.clientY-r.top;   drawLine(lastX,lastY,x,y);   lastX=x;   lastY=y; }; </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_positive_number2": {
+      "id": "math_positive_number2",
+      "next": null,
+      "parent": "control_wait1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_positive_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0.5"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number9": {
+      "id": "math_number9",
+      "next": null,
+      "parent": "motion_gotoxy2",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number10": {
+      "id": "math_number10",
+      "next": null,
+      "parent": "motion_gotoxy2",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number8": {
+      "id": "math_number8",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect5",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "0"
+        }
+      },
+      "topLevel": false
+    },
+    "text4": {
+      "id": "text4",
+      "next": null,
+      "parent": "operator_join1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "stars"
+        }
+      },
+      "topLevel": false
+    },
+    "text7": {
+      "id": "text7",
+      "next": null,
+      "parent": "operator_join1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "banana"
+        }
+      },
+      "topLevel": false
+    },
+    "text5": {
+      "id": "text5",
+      "next": null,
+      "parent": "skyhigh173JSON_json_get1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "score"
+        }
+      },
+      "topLevel": false
+    },
+    "text6": {
+      "id": "text6",
+      "next": null,
+      "parent": "skyhigh173JSON_json_get1",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "{\"key\":\"value\"}"
+        }
+      },
+      "topLevel": false
+    },
+    "math_positive_number1": {
+      "id": "math_positive_number1",
+      "next": null,
+      "parent": "control_wait2",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_positive_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "1"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number11": {
+      "id": "math_number11",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect6",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text8": {
+      "id": "text8",
+      "next": null,
+      "parent": "iframe_displayHTML4",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;} canvas{position:absolute;top:0;left:0;} .btn{position:absolute;bottom:20px;width:60px;height:30px;background:#333;border-radius:4px;cursor:pointer;} #b0{left:40px;} #b1{left:120px;} #b2{left:200px;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <div id=\"b0\" class=\"btn\"></div>   <div id=\"b1\" class=\"btn\"></div>   <div id=\"b2\" class=\"btn\"></div> </div>  <script> let panel=document.getElementById(\"panel\"); let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let b0=document.getElementById(\"b0\"); let b1=document.getElementById(\"b1\"); let b2=document.getElementById(\"b2\");  let targets=[0,0,0]; let fills=[0,0,0]; let active=-1; let ended=false;  let barX=30; let barY=140; let barW=240; let barH=20;  function randomTargets(){   let a=Math.random();   let b=Math.random();   let d=Math.random();   let s=a+b+d;   targets=[a/s,b/s,d/s]; }  randomTargets();  function draw(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300);    ctx.fillStyle=\"#333\";   ctx.fillRect(barX-4,barY-4,barW+8,barH+8);    let w0=fills[0]*barW;   let w1=fills[1]*barW;   let w2=fills[2]*barW;    ctx.fillStyle=\"#ff4444\";   ctx.fillRect(barX,barY,w0,barH);    ctx.fillStyle=\"#44ff44\";   ctx.fillRect(barX+w0,barY,w1,barH);    ctx.fillStyle=\"#4488ff\";   ctx.fillRect(barX+w0+w1,barY,w2,barH);    let t0=targets[0]*barW;   let t1=targets[1]*barW;   let t2=targets[2]*barW;    ctx.fillStyle=\"#ffffff\";   ctx.fillRect(barX+t0-2,barY-6,4,4);   ctx.fillRect(barX+t0+t1-2,barY-6,4,4);   ctx.fillRect(barX+t0+t1+t2-2,barY-6,4,4); }  function update(){   if(ended)return;   if(active>=0){     fills[active]+=0.004;     if(fills[active]>1)fills[active]=1;   }   draw();   requestAnimationFrame(update); }  function finish(){   if(ended)return;   ended=true;   let err=0;   for(let i=0;i<3;i++){     err+=Math.abs(fills[i]-targets[i]);   }   err/=3;   let score=err<0.05?3:err<0.12?2:err<0.2?1:0;   window.parent.postMessage({type:\"fuelScore\",score:score},\"*\"); }  function down(i){if(!ended)active=i;} function up(){active=-1;}  b0.onmousedown=()=>down(0); b1.onmousedown=()=>down(1); b2.onmousedown=()=>down(2);  b0.onmouseup=up; b1.onmouseup=up; b2.onmouseup=up;  b0.onmouseleave=up; b1.onmouseleave=up; b2.onmouseleave=up;  setTimeout(()=>{finish();},6000);  draw(); update(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number12": {
+      "id": "math_number12",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect7",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text9": {
+      "id": "text9",
+      "next": null,
+      "parent": "iframe_displayHTML5",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;} canvas{position:absolute;top:0;left:0;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas> </div>  <script> let panel=document.getElementById(\"panel\"); let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\");  let positions=[   {x:80,y:220},   {x:220,y:220},   {x:150,y:80} ];  let boxes=[   {pos:0,id:0},   {pos:1,id:1},   {pos:2,id:2} ];  let cargoBox=Math.floor(Math.random()*3); let phase=\"show\"; let anim=null; let swapsLeft=6; let ended=false;  function draw(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300);    for(let i=0;i<boxes.length;i++){     let b=boxes[i];     let p=positions[b.pos];     ctx.fillStyle=\"#333\";     ctx.fillRect(p.x-30,p.y-30,60,60);   }    if(phase===\"show\"){     let b=boxes[cargoBox];     let p=positions[b.pos];     ctx.fillStyle=\"#ffaa00\";     ctx.fillRect(p.x-18,p.y-18,36,36);   } }  function startSwap(a,b){   let pa=positions[boxes[a].pos];   let pb=positions[boxes[b].pos];   let cx=(pa.x+pb.x)/2;   let cy=(pa.y+pb.y)/2;   let ra=Math.hypot(pa.x-cx,pa.y-cy);   let rb=Math.hypot(pb.x-cx,pb.y-cy);   let aa=Math.atan2(pa.y-cy,pa.x-cx);   let ab=Math.atan2(pb.y-cy,pb.x-cx);   anim={a:a,b:b,cx:cx,cy:cy,ra:ra,rb:rb,aa:aa,ab:ab,t:0}; }  function applyAnim(){   if(!anim)return;   anim.t+=0.04;   let ta=anim.aa+Math.PI*anim.t;   let tb=anim.ab+Math.PI*anim.t;   let pa={x:anim.cx+Math.cos(ta)*anim.ra,y:anim.cy+Math.sin(ta)*anim.ra};   let pb={x:anim.cx+Math.cos(tb)*anim.rb,y:anim.cy+Math.sin(tb)*anim.rb};   positions[boxes[anim.a].pos]=pa;   positions[boxes[anim.b].pos]=pb;   if(anim.t>=1){     let tmp=boxes[anim.a].pos;     boxes[anim.a].pos=boxes[anim.b].pos;     boxes[anim.b].pos=tmp;     positions[boxes[anim.a].pos]=pa;     positions[boxes[anim.b].pos]=pb;     anim=null;     swapsLeft--;     if(swapsLeft>0){       let i=Math.floor(Math.random()*3);       let j=i;       while(j===i)j=Math.floor(Math.random()*3);       startSwap(i,j);     }else{       phase=\"guess\";     }   } }  function update(){   if(ended)return;   if(phase===\"shuffle\"&&anim)applyAnim();   draw();   requestAnimationFrame(update); }  setTimeout(()=>{phase=\"cover\";},800); setTimeout(()=>{   phase=\"shuffle\";   let i=Math.floor(Math.random()*3);   let j=i;   while(j===i)j=Math.floor(Math.random()*3);   startSwap(i,j); },1400);  panel.onmousedown=e=>{   if(ended||phase!==\"guess\")return;   let r=c.getBoundingClientRect();   let x=e.clientX-r.left;   let y=e.clientY-r.top;   for(let i=0;i<boxes.length;i++){     let b=boxes[i];     let p=positions[b.pos];     if(x>=p.x-30&&x<=p.x+30&&y>=p.y-30&&y<=p.y+30){       ended=true;       let score=b.id===cargoBox?3:0;       window.parent.postMessage({type:\"cargoScore\",score:score},\"*\");     }   } };  setTimeout(()=>{   if(!ended){     ended=true;     window.parent.postMessage({type:\"cargoScore\",score:0},\"*\");   } },6000);  draw(); update(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number13": {
+      "id": "math_number13",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect8",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text10": {
+      "id": "text10",
+      "next": null,
+      "parent": "iframe_displayHTML6",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;} canvas{position:absolute;top:0;left:0;} input{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);width:200px;height:30px;background:#333;border:0;color:#fff;font-size:18px;text-align:center;outline:none;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <input id=\"t\" autocomplete=\"off\" spellcheck=\"false\"> </div>  <script> let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let t=document.getElementById(\"t\");  let phrases=[   \"BUY NOW\",   \"SALE\",   \"50% OFF\",   \"LIMITED TIME\",   \"BEST DEAL\",   \"NEW ARRIVAL\",   \"HOT OFFER\" ];  let target=\"\"; let ended=false; let startTime=0;  function pickPhrase(){   return phrases[Math.floor(Math.random()*phrases.length)]; }  function drawPhrase(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300);   ctx.fillStyle=\"#fff\";   ctx.font=\"32px sans-serif\";   ctx.textAlign=\"center\";   ctx.fillText(target,150,150); }  function hide(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300); }  function start(){   target=pickPhrase();   drawPhrase();    setTimeout(()=>{     hide();     startTime=performance.now();      let ev=new MouseEvent(\"mousedown\",{bubbles:true});     t.dispatchEvent(ev);     t.focus();    },1000); }  function finish(){   if(ended)return;   ended=true;   let correct=t.value.toUpperCase()===target;   let time=(performance.now()-startTime)/1000;   let score=0;   if(correct){     score=time<1.0?3:time<1.8?2:1;   }   window.parent.postMessage({type:\"adScore\",score:score},\"*\"); }  t.oninput=()=>{   if(ended)return;   if(t.value.length>=target.length){     finish();   } };  t.onkeydown=e=>{   if(ended)return;   if(e.key===\"Enter\"){     finish();   } };  setTimeout(()=>{   finish(); },6000);  start(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number14": {
+      "id": "math_number14",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect9",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text11": {
+      "id": "text11",
+      "next": null,
+      "parent": "iframe_displayHTML7",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;} canvas{position:absolute;top:0;left:0;} .btn{position:absolute;bottom:20px;left:120px;width:60px;height:30px;background:#333;border-radius:4px;cursor:pointer;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <div id=\"thruster\" class=\"btn\"></div> </div>  <script> let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let thruster=document.getElementById(\"thruster\");  let cursorY=150; let cursorVel=0;  let fishY=150; let fishStartY=150; let fishTargetY=150; let fishTimer=0; let fishDuration=1;  let gravity=0.25; let cursorBoost=-4;  let caughtTime=0; let ended=false;  function newFishGlide(){   fishStartY=fishY;   fishTargetY=Math.random()*140+80;   fishDuration=Math.random()*1.2+0.4;   fishTimer=0; }  newFishGlide();  function updateFish(dt){   fishTimer+=dt;   let t=fishTimer/fishDuration;   if(t>1)t=1;   fishY=fishStartY+(fishTargetY-fishStartY)*t;   if(t>=1){     newFishGlide();   } }  function draw(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300);    ctx.fillStyle=\"#333\";   ctx.fillRect(140,50,20,200);    ctx.fillStyle=\"#44aa44\";   ctx.fillRect(140,fishY-30,20,60);    ctx.fillStyle=\"#ffaa00\";   ctx.fillRect(140,cursorY-10,20,20); }  function update(){   if(ended)return;    cursorVel+=gravity;   cursorY+=cursorVel;    if(cursorY<60){     cursorY=60;     cursorVel=0;   }   if(cursorY>240){     cursorY=240;     cursorVel=0;   }    let dt=0.016;   updateFish(dt);    if(cursorY>fishY-30 && cursorY<fishY+30){     caughtTime+=dt;   }    if(caughtTime>=1.2){     ended=true;     window.parent.postMessage({type:\"thrusterScore\",score:3},\"*\");   }    draw();   requestAnimationFrame(update); }  thruster.onmousedown=()=>{   if(ended)return;   cursorVel=cursorBoost; };  setTimeout(()=>{   if(!ended){     ended=true;     window.parent.postMessage({type:\"thrusterScore\",score:0},\"*\");   } },6000);  draw(); update(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "math_number15": {
+      "id": "math_number15",
+      "next": null,
+      "parent": "theshovelcanvaseffects_seteffect10",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "math_number",
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "2"
+        }
+      },
+      "topLevel": false
+    },
+    "text12": {
+      "id": "text12",
+      "next": null,
+      "parent": "iframe_displayHTML8",
+      "shadow": true,
+      "inputs": {},
+      "opcode": "text",
+      "fields": {
+        "TEXT": {
+          "name": "TEXT",
+          "value": "<!DOCTYPE html> <html> <head> <style> html,body{margin:0;padding:0;height:100%;display:flex;justify-content:center;align-items:center;background:transparent;} #panel{width:300px;height:300px;background:#222;position:relative;border:3px solid #555;overflow:hidden;} canvas{position:absolute;top:0;left:0;} .btn{position:absolute;bottom:20px;left:120px;width:60px;height:30px;background:#333;border-radius:4px;cursor:pointer;} </style> </head> <body>  <div id=\"panel\">   <canvas id=\"c\" width=\"300\" height=\"300\"></canvas>   <div id=\"tap\" class=\"btn\"></div> </div>  <script> let c=document.getElementById(\"c\"); let ctx=c.getContext(\"2d\"); let tap=document.getElementById(\"tap\");  let angle=0; let speed=0.12;  let targetAngle=Math.random()*Math.PI*2; let ended=false;  function draw(){   ctx.fillStyle=\"#222\";   ctx.fillRect(0,0,300,300);    ctx.save();   ctx.translate(150,150);    ctx.fillStyle=\"#44ff44\";   ctx.rotate(targetAngle);   ctx.fillRect(-10,-80,20,40);   ctx.rotate(-targetAngle);    ctx.rotate(angle);   ctx.fillStyle=\"#4488ff\";   ctx.fillRect(-10,-80,20,80);    ctx.restore(); }  function update(){   if(ended)return;   angle+=speed;   draw();   requestAnimationFrame(update); }  tap.onmousedown=()=>{   if(ended)return;   ended=true;    let diff=Math.abs(((angle - targetAngle + Math.PI*3) % (Math.PI*2)) - Math.PI);    let score=0;   if(diff<0.15)score=3;   else if(diff<0.35)score=2;   else if(diff<0.55)score=1;    window.parent.postMessage({type:\"finsScore\",score:score},\"*\"); };  setTimeout(()=>{   if(!ended){     ended=true;     window.parent.postMessage({type:\"finsScore\",score:0},\"*\");   } },6000);  draw(); update(); </script>  </body> </html>"
+        }
+      },
+      "topLevel": false
+    },
+    "looks_setsizeto1": {
+      "id": "looks_setsizeto1",
+      "opcode": "looks_setsizeto",
+      "inputs": {
+        "SIZE": {
+          "name": "SIZE",
+          "block": "math_number5",
+          "shadow": "math_number5"
+        }
+      },
+      "fields": {},
+      "next": "motion_gotoxy1",
+      "topLevel": false,
+      "parent": "event_whenflagclicked1",
+      "shadow": false,
+      "x": 96.66666666666667,
+      "y": 68.14814814814815
+    },
+    "math_number5": {
+      "id": "math_number5",
+      "opcode": "math_number",
+      "inputs": {},
+      "fields": {
+        "NUM": {
+          "name": "NUM",
+          "value": "500"
+        }
+      },
+      "next": null,
+      "topLevel": false,
+      "parent": "looks_setsizeto1",
+      "shadow": true
+    },
+    "looks_hide1": {
+      "id": "looks_hide1",
+      "opcode": "looks_hide",
+      "inputs": {},
+      "fields": {},
+      "next": "theshovelcanvaseffects_seteffect2",
+      "topLevel": false,
+      "parent": "motion_gotoxy1",
+      "shadow": false,
+      "x": 69.77777777777783,
+      "y": 212.26337448559627
+    }
+  },
+  "scripts": [
+    "event_whenbroadcastreceived1",
+    "event_whenflagclicked1",
+    "event_whenbroadcastreceived2",
+    "event_whenbroadcastreceived3",
+    "iframe_whenMessage1",
+    "event_whenbroadcastreceived4",
+    "event_whenbroadcastreceived5",
+    "event_whenbroadcastreceived6",
+    "event_whenbroadcastreceived7",
+    "event_whenbroadcastreceived8"
+  ]
+}

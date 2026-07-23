@@ -78,5 +78,61 @@
     "type": "broadcast_msg",
     "isCloud": false,
     "value": "INVENTORY page change"
+  },
+  "^y%zj*[2)y-pS@YA|+tu": {
+    "id": "^y%zj*[2)y-pS@YA|+tu",
+    "name": "Body",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "Body"
+  },
+  "c?L#51.#1:Q{u9h1$T@0": {
+    "id": "c?L#51.#1:Q{u9h1$T@0",
+    "name": "Windows",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "Windows"
+  },
+  "edp?C};k@B||N{dL%CY7": {
+    "id": "edp?C};k@B||N{dL%CY7",
+    "name": "NoseCone",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "NoseCone"
+  },
+  "fAF}S32L:%A[3Hh*]?:@": {
+    "id": "fAF}S32L:%A[3Hh*]?:@",
+    "name": "FuelTank",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "FuelTank"
+  },
+  "5]]i7RzsBZq$K0aU**U6": {
+    "id": "5]]i7RzsBZq$K0aU**U6",
+    "name": "CargoBay",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "CargoBay"
+  },
+  "eHVwl1UwxaE)r:gKR~{H": {
+    "id": "eHVwl1UwxaE)r:gKR~{H",
+    "name": "AdvertisingPanels",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "AdvertisingPanels"
+  },
+  "V,zpOO?*cV-EcwsqbEz{": {
+    "id": "V,zpOO?*cV-EcwsqbEz{",
+    "name": "Thrusters",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "Thrusters"
+  },
+  "FuLC;cfr:.|j%bTpI#J}": {
+    "id": "FuLC;cfr:.|j%bTpI#J}",
+    "name": "FIns",
+    "type": "broadcast_msg",
+    "isCloud": false,
+    "value": "FIns"
   }
 }

@@ -2,20 +2,20 @@
   {
     "name": "mockup",
     "dataFormat": "svg",
-    "rotationCenterX": 92.60026999999997,
-    "rotationCenterY": 133.2378099999999
+    "rotationCenterX": 92.60027,
+    "rotationCenterY": 133.23781
   },
   {
     "name": "base",
     "dataFormat": "svg",
     "rotationCenterX": 92.60026999999997,
-    "rotationCenterY": 133.23780999999997
+    "rotationCenterY": 133.23780999999994
   },
   {
     "name": "buttons",
     "dataFormat": "svg",
-    "rotationCenterX": 80.85287500000001,
-    "rotationCenterY": 86.055905
+    "rotationCenterX": 80.85286500000001,
+    "rotationCenterY": 86.05589499999999
   },
   {
     "name": "kits",
@@ -44,8 +44,8 @@
   {
     "name": "pages",
     "dataFormat": "svg",
-    "rotationCenterX": 80.43599873415289,
-    "rotationCenterY": -92.82017363297831
+    "rotationCenterX": 80.43599246830578,
+    "rotationCenterY": -92.82017707703841
   },
   {
     "name": "page next",
