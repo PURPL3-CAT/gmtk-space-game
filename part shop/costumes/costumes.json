@@ -24,7 +24,19 @@
     "rotationCenterY": 86.05590551710709
   },
   {
+    "name": "kits selected",
+    "dataFormat": "svg",
+    "rotationCenterX": 80.85286499999998,
+    "rotationCenterY": 86.05590551710709
+  },
+  {
     "name": "parts",
+    "dataFormat": "svg",
+    "rotationCenterX": -3.62199499999997,
+    "rotationCenterY": 86.05590551710709
+  },
+  {
+    "name": "parts selected",
     "dataFormat": "svg",
     "rotationCenterX": -3.62199499999997,
     "rotationCenterY": 86.05590551710709

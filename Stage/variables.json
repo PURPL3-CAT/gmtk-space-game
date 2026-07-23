@@ -4,7 +4,7 @@
     "name": "PartsFilter",
     "type": "",
     "isCloud": false,
-    "value": "kits"
+    "value": "parts"
   },
   "bV=j0c)Z7B_Di/e/upE(": {
     "id": "bV=j0c)Z7B_Di/e/upE(",
@@ -25,7 +25,7 @@
     "name": "MaxPages",
     "type": "",
     "isCloud": false,
-    "value": 1
+    "value": 2
   },
   "mY!n(%JOZe1++Q$MH;WY": {
     "id": "mY!n(%JOZe1++Q$MH;WY",
@@ -42,7 +42,13 @@
     "name": "Parts",
     "type": "list",
     "isCloud": false,
-    "value": [],
+    "value": [
+      "{\"Name\":\"generic\",\"Amount\":5,\"Position\":0,\"Pattern\":[[\"0\",\"1\",\"1\",\"0\"],[\"1\",\"0\",\"0\",\"1\"]]}",
+      "{\"Name\":\"generic\",\"Amount\":4,\"Position\":0,\"Pattern\":[[\"0\",\"1\",\"1\",\"0\"],[\"1\",\"0\",\"0\",\"1\"]]}",
+      "{\"Name\":\"generic\",\"Amount\":7,\"Position\":0,\"Pattern\":[[\"0\",\"1\",\"1\",\"0\"],[\"1\",\"0\",\"0\",\"1\"]]}",
+      "{\"Name\":\"generic\",\"Amount\":2345,\"Position\":0,\"Pattern\":[[\"0\",\"1\",\"1\",\"0\"],[\"1\",\"0\",\"0\",\"1\"]]}",
+      "{\"Name\":\"generic\",\"Amount\":45,\"Position\":0,\"Pattern\":[[\"0\",\"1\",\"1\",\"0\"],[\"1\",\"0\",\"0\",\"1\"]]}"
+    ],
     "_monitorUpToDate": false
   },
   "]l,zbY}0x)-[ceE+6JG:": {
